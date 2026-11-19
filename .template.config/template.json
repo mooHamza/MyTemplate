@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "mooHamza",
+  "classifications": ["Web", "API", "Clean Architecture", "Aspire"],
+  "identity": "mooHamza.CleanArchitecture.Template",
+  "name": "Clean Architecture Solution",
+  "shortName": "fulltemplate",
+  "tags": { "language": "C#", "type": "project" },
+  "sourceName": "FullTemplate",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "**/.vs/**", "**/bin/**", "**/obj/**", "artifacts/**",
+            ".git/**", "**/*.user", "**/.template.config/**"
+          ]
+        }
+      ]
+    }
+  ]
+}
